@@ -6,7 +6,7 @@ app = Flask(__name__)
 # Define a route to handle incoming HTTP requests
 @app.route('/')
 def hello():
-    return 'Hello, World!'
+    return 'Hello, World! Azure Web App'
 
 # Start the Flask development server listening on port 8000
 if __name__ == '__main__':
